@@ -1,0 +1,22 @@
+
+# Configuration module
+
+from .retailers import (
+    RETAILERS,
+    REQUEST_DELAY_SEC,
+    MAX_PRODUCTS_PER_RETAILER,
+    CACHE_TTL_SEC,
+    TIMEOUT_SEC,
+    ELECTRONICS_TOKENS,
+    MATERIALS_TOKENS,
+)
+
+__all__ = [
+    'RETAILERS',
+    'REQUEST_DELAY_SEC',
+    'MAX_PRODUCTS_PER_RETAILER',
+    'CACHE_TTL_SEC',
+    'TIMEOUT_SEC',
+    'ELECTRONICS_TOKENS',
+    'MATERIALS_TOKENS',
+]
