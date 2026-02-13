@@ -27,7 +27,6 @@ pricio_final/
 │   ├── cache.py              # Search result caching
 │   └── helpers.py            # Utility functions
 └── data/                      # Created automatically
-    └── price_history.csv     # Price tracking (future feature)
 ```
 
 ## Features
